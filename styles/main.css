@@ -142,7 +142,9 @@ body {
 .aboutus-header h1{
     font-family: var(--font-bold);
 }
-
+.aboutus-section{
+    margin-top: 60px !important;
+}
 .aboutus-header:after{
     background: var(--30B6BE, linear-gradient(180deg, #21D6CC 0%, #219ECF 100%));
     content: "";
