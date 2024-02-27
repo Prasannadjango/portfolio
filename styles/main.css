@@ -53,9 +53,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+main{
+    display: flex;
+    justify-content: center;
+}
 .main-container {
     margin: 20px 40px !important;
+    max-width: 1345px;
 }
 
 .nav-container {
@@ -99,7 +103,7 @@ body {
 
 .rocketpath-container {
     right: 9%;
-    top: 12%;
+    top: 3%;
 }
 
 .designation-section>span {
@@ -142,6 +146,7 @@ body {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
     border: 0;
+    cursor: pointer;
     font-family: var(--font-bold);
 }
 
@@ -179,7 +184,7 @@ body {
     color: #fff;
     font-size: 18px;
     text-align: center;
-    line-height: 45px;
+    line-height: 40px;
     letter-spacing: 0.6px;
 }
 .herosection-sub-text{
