@@ -4,18 +4,18 @@
 /* local fonts importing */
 @font-face {
     font-family: "font-bold";
-    src: url(../fonts/font-bold/Quicksand-Bold.otf),
-        url(../fonts/font-bold/Quicksand-Bold.ttf),
-        url(../fonts/font-bold/Quicksand-Bold.woff),
-        url(../fonts/font-bold/Quicksand-Bold.woff2);
+    src: url(../fonts/font-bold/Jost-Bold.otf),
+        url(../fonts/font-bold/Jost-Bold.ttf),
+        url(../fonts/font-bold/Jost-Bold.woff),
+        url(../fonts/font-bold/Jost-Bold.woff2);
 }
 
 @font-face {
     font-family: "font-light";
-    src: url(../fonts/font-light/Quicksand-Light.otf),
-        url(../fonts/font-light/Quicksand-Light.ttf),
-        url(../fonts/font-light/Quicksand-Light.woff),
-        url(../fonts/font-light/Quicksand-Light.woff2);
+    src: url(../fonts/font-light/Jost-Regular.otf),
+        url(../fonts/font-light/Jost-Regular.ttf),
+        url(../fonts/font-light/Jost-Regular.woff),
+        url(../fonts/font-light/Jost-Regular.woff2);
 }
 
 /* root variables */
@@ -67,7 +67,10 @@ main{
     font-weight: 500;
     font-size: 16px;
 }
-
+.nav-links a{
+     text-decoration: none;
+     color: #fff;
+}
 .herosection-main-text {
     font-size: 40px;
     font-weight: 700;
@@ -89,7 +92,7 @@ main{
     top: 0;
 }
 
-.nav-container>ul>li:hover {
+.nav-container>ul>a>li:hover {
     background: var(--30B6BE, linear-gradient(180deg, #21D6CC 0%, #219ECF 100%));
     background-clip: text;
     -webkit-background-clip: text;
