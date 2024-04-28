@@ -30,8 +30,8 @@
 /* Mandatory styles */
 *,
 body {
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box !important;
     font-family: 'font-light', sans-serif;
 }
@@ -53,10 +53,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-main{
+
+main {
     display: flex;
     justify-content: center;
 }
+
 .main-container {
     margin: 20px 40px !important;
     max-width: 1345px;
@@ -67,10 +69,12 @@ main{
     font-weight: 500;
     font-size: 16px;
 }
-.nav-links a{
-     text-decoration: none;
-     color: #fff;
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
 }
+
 .herosection-main-text {
     font-size: 40px;
     font-weight: 700;
@@ -190,12 +194,14 @@ main{
     line-height: 40px;
     letter-spacing: 0.6px;
 }
-.herosection-sub-text{
+
+.herosection-sub-text {
     color: #fff;
     font-size: 18px;
     line-height: 35px;
     letter-spacing: 0.6px;
 }
+
 .dotted-lines {
     position: absolute;
     left: 50%;
@@ -240,7 +246,7 @@ main{
 
 .experience-role-content {
     font-size: 14px;
-    color: #c6c6c6;
+    color: #dfdfdf;
 
 }
 
@@ -276,11 +282,12 @@ main{
     -o-border-radius: 50%;
 }
 
-.card-pointer-arrow {
+.work-section-card-pointer-arrow {
     position: absolute;
 }
 
 .second-experience-arrow {
+    position: absolute;
     right: 2%;
     top: 7%;
     transform: rotate(180deg) !important;
@@ -328,4 +335,63 @@ main{
     -moz-transform: translate(-2%, 53%);
     -ms-transform: translate(-2%, 53%);
     -o-transform: translate(-2%, 53%);
+}
+
+.work-section-card {
+    height: 350px;
+    color: white;
+    background-size: 100%;
+   background-position: center;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1980aac1;
+    height: 100%;
+    border-radius: inherit;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease;
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
+}
+
+.content * {
+    transform: translateY(-70%);
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.content h2 {
+    font-size: 35px;
+    margin: 15px;
+    font-weight: 700;
+}
+
+.work-section-card:hover .content {
+    opacity: 1;
+}
+
+.work-section-card:hover .content * {
+    opacity: 1;
+    transform: translateY(0);
+}
+.live-app-card{
+    background: url(../images/myproject-images/videostreamapp.png);
+}
+.ev-app-card{
+    background: url(../images/myproject-images/evrentalapp.png);
 }
