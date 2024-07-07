@@ -4,18 +4,12 @@
 /* local fonts importing */
 @font-face {
     font-family: "font-bold";
-    src: url(../fonts/font-bold/Jost-Bold.otf),
-        url(../fonts/font-bold/Jost-Bold.ttf),
-        url(../fonts/font-bold/Jost-Bold.woff),
-        url(../fonts/font-bold/Jost-Bold.woff2);
+    src: url(../fonts/font-bold/Satoshi-Bold.otf)
 }
 
 @font-face {
     font-family: "font-light";
-    src: url(../fonts/font-light/Jost-Regular.otf),
-        url(../fonts/font-light/Jost-Regular.ttf),
-        url(../fonts/font-light/Jost-Regular.woff),
-        url(../fonts/font-light/Jost-Regular.woff2);
+    src: url(../fonts/font-light/Satoshi-Regular.otf)
 }
 
 /* root variables */
@@ -45,7 +39,9 @@ h5,
 h6 {
     margin: 0 !important;
 }
-
+mark{
+    padding: 0 !important;
+}
 /* page styles  */
 body {
     background-image: url(../images/bgimage.webp);
@@ -92,8 +88,8 @@ main {
 }
 
 .rocket-planet-container {
-    right: 0;
-    top: 0;
+    right: -40px;
+    top: -6px;
 }
 
 .nav-container>ul>a>li:hover {
@@ -109,7 +105,7 @@ main {
 }
 
 .rocketpath-container {
-    right: 9%;
+    right: 7%;
     top: 3%;
 }
 
@@ -155,6 +151,9 @@ main {
     border: 0;
     cursor: pointer;
     font-family: var(--font-bold);
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
 }
 
 .primary-btn:hover {
@@ -376,7 +375,7 @@ main {
 }
 
 .content h2 {
-    font-size: 35px;
+    font-size: 30px;
     margin: 15px;
     font-weight: 700;
 }
