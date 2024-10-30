@@ -39,9 +39,11 @@ h5,
 h6 {
     margin: 0 !important;
 }
-mark{
+
+mark {
     padding: 0 !important;
 }
+
 /* page styles  */
 body {
     background-image: url(../images/bgimage.webp);
@@ -151,9 +153,9 @@ main {
     border: 0;
     cursor: pointer;
     font-family: var(--font-bold);
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-    7px 7px 20px 0px rgba(0,0,0,.1),
-    4px 4px 5px 0px rgba(0,0,0,.1);
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
 }
 
 .primary-btn:hover {
@@ -244,7 +246,7 @@ main {
 }
 
 .experience-role-content {
-    font-size: 14px;
+    font-size: 15px;
     color: #dfdfdf;
 
 }
@@ -340,7 +342,7 @@ main {
     height: 350px;
     color: white;
     background-size: 100%;
-   background-position: center;
+    background-position: center;
     display: flex;
     position: relative;
     cursor: pointer;
@@ -388,35 +390,39 @@ main {
     opacity: 1;
     transform: translateY(0);
 }
-.live-app-card{
+
+.live-app-card {
     background: url(../images/myproject-images/videostreamapp.png);
 }
-.ev-app-card{
+
+.ev-app-card {
     background: url(../images/myproject-images/evrentalapp.png);
 }
 
 
-.followme-txt{
+.followme-txt {
     color: #fff;
     font-size: 18px;
     text-align: center;
     line-height: 40px;
     letter-spacing: 0.6px;
 }
-.follow-me-menus > a > svg{
-  color: #fff;
+
+.follow-me-menus>a>svg {
+    color: #fff;
 }
 
-.floating-icons{
+.floating-icons {
     display: flex;
     flex-direction: column;
     gap: 13px;
     position: fixed;
     right: 14px;
-    top:65% ;
+    top: 65%;
     z-index: 1000;
 }
-.floating-icons > button{
+
+.floating-icons>a {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -430,7 +436,16 @@ main {
     color: #fff;
     background: var(--30B6BE, linear-gradient(180deg, #21D6CC 0%, #219ECF 100%));
 }
-.floating-icons > button > svg{
+
+.floating-icons>a:hover {
+    background: #219ECF !important;
+}
+
+.floating-icons>a>svg {
     width: 26px;
     height: 26px;
+}
+
+a:hover {
+    color: #fff !important;
 }
