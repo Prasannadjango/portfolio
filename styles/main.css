@@ -380,6 +380,8 @@ main {
     font-size: 30px;
     margin: 15px;
     font-weight: 700;
+    width: 245px;
+    text-align: center;
 }
 
 .work-section-card:hover .content {
@@ -398,7 +400,9 @@ main {
 .ev-app-card {
     background: url(../images/myproject-images/evrentalapp.png);
 }
-
+.job-portal-admin-card{
+    background: url(../images/myproject-images/knownjobzadmin.png);
+}
 
 .followme-txt {
     color: #fff;
