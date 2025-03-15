@@ -58,7 +58,7 @@ main {
 }
 
 .main-container {
-    margin: 20px 40px !important;
+    margin: 20px 40px;
     max-width: 1345px;
 }
 
@@ -78,7 +78,15 @@ main {
     font-weight: 700;
     font-family: var(--font-bold);
 }
-
+.profile-img-section{
+    justify-content: end;
+}
+.banner-header-txt{
+    gap: 16px;
+  }
+  .nav-links{
+    gap: 3rem;
+  }
 .herosection-main-text-colored {
     font-size: 40px;
     font-weight: 700;
@@ -403,7 +411,9 @@ main {
 .job-portal-admin-card{
     background: url(../images/myproject-images/knownjobzadmin.png);
 }
-
+.online-learning-app-card{
+    background: url(../images/myproject-images/Courses\ page.png);
+}
 .followme-txt {
     color: #fff;
     font-size: 18px;
