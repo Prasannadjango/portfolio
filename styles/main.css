@@ -226,7 +226,7 @@ main {
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
     font-size: 14px;
-    margin-left: 18% !important;
+    margin-left: 18%;
     width: 100%;
     max-width: 500px;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
@@ -240,7 +240,7 @@ main {
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
     font-size: 14px;
-    margin-left: 6% !important;
+    margin-left: 6%;
     width: 100%;
     max-width: 500px;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
@@ -263,7 +263,7 @@ main {
     font-size: 12px;
 }
 
-.counts-container {
+.counts-container,.counts-container-2 {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -276,7 +276,7 @@ main {
     -o-transform: translate(-50%, -65%);
 }
 
-.counts-container span {
+.counts-container span,.counts-container-2 span {
     font-size: 16px;
     color: #FFF;
     display: grid;
@@ -402,16 +402,28 @@ main {
 }
 
 .live-app-card {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background: url(../images/myproject-images/videostreamapp.png);
 }
 
 .ev-app-card {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background: url(../images/myproject-images/evrentalapp.png);
 }
 .job-portal-admin-card{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background: url(../images/myproject-images/knownjobzadmin.png);
 }
 .online-learning-app-card{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background: url(../images/myproject-images/Courses\ page.png);
 }
 .followme-txt {

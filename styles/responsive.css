@@ -1,60 +1,94 @@
-@media (min-width: 360px) and (max-width: 425px){
+@media (min-width: 360px) and (max-width: 600px) {
+
     .rocket-planet-container,
     .planet-image-contanier,
-    .rocketpath-container{
-    display: none !important;
+    .rocketpath-container {
+        display: none !important;
     }
-    .header-banner-section{
-     flex-direction: column;
+
+    .header-banner-section {
+        flex-direction: column;
     }
-    .main-container{
+
+    .main-container {
         width: 100%;
         max-width: 100% !important;
         margin: 20px 0 !important;
     }
-    .tech-galaxy-img img{
+
+    .tech-galaxy-img img {
         width: 100%;
     }
+
     .aboutus-section {
         width: 100%;
     }
-    .workexp-section{
-     display: none;
+
+    .space-exploration-container, .dotted-lines, .card-pointer-arrow {
+        display: none;
     }
-    .header-banner-section > div:first-child{
-      order: 1;
+
+    .experience-content,
+    .experience-content-2 {
+        margin: 0 !important;
     }
-    .banner-header-txt{
+
+    .header-banner-section>div:first-child {
+        order: 1;
+    }
+
+    .banner-header-txt {
         flex-direction: column;
     }
-    .designation-section{
+
+    .designation-section {
         justify-content: center;
     }
-    .herosection-sub-text{
+
+    .herosection-sub-text {
         text-align: justify;
         padding: 0 20px;
 
     }
-    .primary-btn{
+
+    .primary-btn {
         display: flex;
         margin: 0 auto;
     }
-    .profile-img-section{
-       justify-content: center !important;
+
+    .profile-img-section {
+        justify-content: center !important;
     }
+
     .aboutus-text-container p,
-    .techstack-content p{
-      text-align: justify !important;
-      line-height: 35px !important;
-      letter-spacing: normal !important;
+    .techstack-content p {
+        text-align: justify !important;
+        line-height: 35px !important;
+        letter-spacing: normal !important;
     }
-    .aboutus-text-container, .tech-galaxy-img,.techstack-content ,#myworks{
+
+    .aboutus-text-container, .workexp-section, .tech-galaxy-img, .techstack-content, #myworks {
         padding: 0 20px;
     }
-    .banner-header-txt{
+
+    .banner-header-txt {
         gap: 0 !important;
-      }
-      .nav-links{
-       gap: 27px !important;
-      }
+    }
+
+    .nav-links {
+        gap: 27px !important;
+    }
+
+    .counts-container {
+        left: 4% !important;
+        top: 35% !important;
+    }
+    .counts-container-2{
+        left: 4% !important;
+        top: 41% !important;
+    }
+
+    .experience-content-2 {
+        margin-top: 25px !important;
+    }
 }
