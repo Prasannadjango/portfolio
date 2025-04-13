@@ -79,7 +79,9 @@ main {
     font-family: var(--font-bold);
 }
 .profile-img-section{
-    justify-content: end;
+ min-height: 750px;
+ height: 750px;
+ justify-content: center;
 }
 .banner-header-txt{
     gap: 16px;
