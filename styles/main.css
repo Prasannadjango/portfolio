@@ -74,7 +74,7 @@ main {
 }
 
 .herosection-main-text {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
 }
 .profile-img-section{
@@ -82,14 +82,60 @@ main {
  height: 700px;
  justify-content: center;
 }
+.banner-right-exp-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  line-height: 35px;
+}
+.banner-content-section{
+    margin-top: 35px;
+    
+}
+.banner-mega-txt-container{
+    padding-left: 20px;
+    margin-top: 60px;
+    border-left: 2px solid var(--primary-color-left);
+}
+.banner-mega-txt{
+ font-size: 75px;
+ font-weight: 500;
+ color: #dfdfdf;
+}
+.banner-email-section{
+ margin-top: 25px;
+}
+.banner-email-section p{
+    color: rgb(204 204 204);
+    margin-bottom: 10px;
+}
+.banner-email-section h6{
+   padding-top: 10px;
+    font-family: var(--font-bold);
+    color: #fff;
+}
+.banner-content-section p{
+    color: rgb(204 204 204);
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0.6px;
+}
+.banner-right-exp-section p{
+    color: #d6d6d6;
+}
+.banner-right-exp-section h1{
+ font-family: var(--font-bold);
+ color: #fff;
+}
 .banner-header-txt{
+    margin-top: 50px;
     gap: 16px;
   }
   .nav-links{
     gap: 3rem;
   }
 .herosection-main-text-colored {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 500;
     font-family: var(--font-bold);
     background: var(--30B6BE, linear-gradient(180deg, #21D6CC 0%, #219ECF 100%));
