@@ -77,63 +77,94 @@ main {
     font-size: 40px;
     font-weight: 400;
 }
-.profile-img-section{
- min-height: 700px;
- height: 700px;
- justify-content: center;
+
+.profile-img-section {
+    min-height: 700px;
+    height: 700px;
+    justify-content: center;
 }
-.banner-right-exp-section{
+.profile-img-section img{
+  width: 100%;
+}
+.banner-right-exp-section {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-  line-height: 35px;
+    line-height: 35px;
 }
-.banner-content-section{
+
+.banner-content-section {
     margin-top: 35px;
-    
+
 }
-.banner-mega-txt-container{
+
+.banner-mega-txt-container {
     padding-left: 20px;
     margin-top: 60px;
     border-left: 2px solid var(--primary-color-left);
 }
-.banner-mega-txt{
- font-size: 75px;
- font-weight: 500;
- color: #dfdfdf;
+
+.banner-mega-txt {
+    font-size: 75px;
+    font-weight: 500;
+    color: #dfdfdf;
 }
-.banner-email-section{
- margin-top: 25px;
+
+.banner-email-section {
+    margin-top: 25px;
 }
-.banner-email-section p{
+
+.banner-email-section p {
     color: rgb(204 204 204);
     margin-bottom: 10px;
 }
-.banner-email-section h6{
-   padding-top: 10px;
+
+.banner-email-section h6 {
+    padding-top: 10px;
     font-family: var(--font-bold);
     color: #fff;
 }
-.banner-content-section p{
+
+.banner-content-section p {
     color: rgb(204 204 204);
     font-size: 18px;
     line-height: 35px;
     letter-spacing: 0.6px;
 }
-.banner-right-exp-section p{
+
+.banner-right-exp-section p {
     color: #d6d6d6;
 }
-.banner-right-exp-section h1{
- font-family: var(--font-bold);
- color: #fff;
+
+.banner-right-exp-section h1 {
+    font-family: var(--font-bold);
+    color: #fff;
 }
-.banner-header-txt{
+
+.banner-header-txt {
     margin-top: 50px;
-    gap: 16px;
-  }
-  .nav-links{
+}
+
+.nav-links {
     gap: 3rem;
-  }
+}
+
+.social-media-container {
+    padding-top: 40px;
+}
+
+.social-media-container p {
+    color: #cccc;
+}
+.social-media-container a{
+    text-decoration: none;
+}
+.social-media-container a svg{
+    color: #FFF;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}
 .herosection-main-text-colored {
     font-size: 45px;
     font-weight: 500;
@@ -189,15 +220,15 @@ main {
 
 .herosection-sub-text {
     color: rgb(204 204 204);
-   font-size: 18px;
+    font-size: 18px;
     line-height: 35px;
     letter-spacing: 0.6px;
 }
 
 .primary-btn {
-    padding: 8px 24px !important;
+    padding: 12px 19px;
     border-radius: 4px;
-    background: var(--30B6BE, linear-gradient(180deg, #21D6CC 0%, #219ECF 100%));
+    background: #219ECF;
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -212,32 +243,43 @@ main {
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
 }
-.specialities-content{
+
+.banner-btn-section {
+    margin-top: 50px;
+}
+
+.specialities-content {
     color: rgb(204 204 204);
     font-size: 18px;
     line-height: 35px;
     letter-spacing: 0.6px;
 }
-.specialization-card{
+
+.specialization-card {
     height: 275px;
     padding: 6px 30px;
     border-left: 2px solid #fff;
 }
-.specialization-card-spacing{
+
+.specialization-card-spacing {
     margin-top: 100px;
 }
-.specialization-card h1{
+
+.specialization-card h1 {
     font-family: var(--font-bold);
     color: #fff;
 }
-.specialization-card-title{
+
+.specialization-card-title {
     color: #fff;
     margin-bottom: 10px !important;
 }
-.specialization-card-text{
+
+.specialization-card-text {
     color: rgb(204 204 204);
     font-size: 16px;
 }
+
 .primary-btn:hover {
     background: #219ECF !important;
 }
@@ -275,7 +317,8 @@ main {
     line-height: 40px;
     letter-spacing: 0.6px;
 }
-.work-exp-box{
+
+.work-exp-box {
     gap: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -290,7 +333,8 @@ main {
     -o-border-radius: 4px;
     padding: 0 25px;
 }
-.work-exp-box span{
+
+.work-exp-box span {
     width: 40px;
     border-radius: 5px;
     font-weight: bolder;
@@ -307,14 +351,17 @@ main {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-.work-exp-text-container h6{
+
+.work-exp-text-container h6 {
     font-size: 18px;
     font-family: var(--font-bold);
     color: #efefef;
 }
-.work-exp-text-container p{
+
+.work-exp-text-container p {
     color: rgb(204 204 204);
 }
+
 .dotted-lines {
     position: absolute;
     left: 50%;
@@ -367,7 +414,7 @@ main {
     font-size: 12px;
 }
 
-.counts-container,.counts-container-2 {
+.counts-container, .counts-container-2 {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -380,7 +427,7 @@ main {
     -o-transform: translate(-50%, -65%);
 }
 
-.counts-container span,.counts-container-2 span {
+.counts-container span, .counts-container-2 span {
     font-size: 16px;
     color: #FFF;
     display: grid;
@@ -518,18 +565,21 @@ main {
     background-size: cover;
     background: url(../images/myproject-images/evrentalapp.png);
 }
-.job-portal-admin-card{
+
+.job-portal-admin-card {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background: url(../images/myproject-images/knownjobzadmin.png);
 }
-.online-learning-app-card{
+
+.online-learning-app-card {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background: url(../images/myproject-images/Courses\ page.png);
 }
+
 .followme-txt {
     color: #fff;
     font-size: 18px;
