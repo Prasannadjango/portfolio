@@ -83,9 +83,11 @@ main {
     height: 700px;
     justify-content: center;
 }
-.profile-img-section img{
-  width: 100%;
+
+.profile-img-section img {
+    width: 100%;
 }
+
 .banner-right-exp-section {
     display: flex;
     flex-direction: column;
@@ -156,15 +158,18 @@ main {
 .social-media-container p {
     color: #cccc;
 }
-.social-media-container a{
+
+.social-media-container a {
     text-decoration: none;
 }
-.social-media-container a svg{
+
+.social-media-container a svg {
     color: #FFF;
     font-size: 30px;
     width: 30px;
     height: 30px;
 }
+
 .herosection-main-text-colored {
     font-size: 45px;
     font-weight: 500;
@@ -297,9 +302,11 @@ main {
 .section-spacing {
     margin-top: 80px !important;
 }
-.work-process-header{
+
+.work-process-header {
     margin-bottom: 80px;
 }
+
 .section-headers:after {
     background: var(--30B6BE, linear-gradient(180deg, #21D6CC 0%, #219ECF 100%));
     content: "";
@@ -631,7 +638,8 @@ main {
 a:hover {
     color: #fff !important;
 }
-.mywork-logo{
+
+.mywork-logo {
     background-color: #219ECF;
     width: 70px;
     height: 70px;
@@ -644,7 +652,8 @@ a:hover {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-.work-logo-border-container{
+
+.work-logo-border-container {
     border: 2px dashed #cdf2ff;
     padding: 10px;
     width: 100px;
@@ -657,4 +666,17 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.dotted-arrow-image-section {
+    width: 160px;
+    height: 160px;
+        position: absolute;
+    right: -34px;
+    top: -61px;
+    transform: rotate3d(14, 12, 1, 180deg);
+}
+.dotted-arrow-image-section img{
+    width: 100%;
+    height: 100%;
 }
