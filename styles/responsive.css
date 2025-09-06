@@ -1,14 +1,5 @@
 @media (min-width: 360px) and (max-width: 600px) {
 
-    .rocket-planet-container,
-    .planet-image-contanier,
-    .rocketpath-container {
-        display: none !important;
-    }
-
-    .header-banner-section {
-        flex-direction: column;
-    }
 
     .main-container {
         width: 100%;
@@ -34,7 +25,30 @@
     }
 
     .header-banner-section>div:first-child {
+        order: 3;
+    }
+
+    .header-banner-section>div:nth-child(2) {
         order: 1;
+    }
+
+    .header-banner-section>div:nth-child(3) {
+        order: 2;
+    }
+
+    .banner-mega-txt {
+        font-size: 55px !important;
+    }
+
+    .social-media-container {
+        padding: 0;
+    }
+.banner-btn-section a{
+ width: fit-content !important;
+}
+    .header-banner-section {
+        flex-direction: column;
+        padding-inline: 20px;
     }
 
     .banner-header-txt {
@@ -83,12 +97,29 @@
         left: 4% !important;
         top: 35% !important;
     }
-    .counts-container-2{
+
+    .counts-container-2 {
         left: 4% !important;
         top: 41% !important;
     }
 
     .experience-content-2 {
         margin-top: 25px !important;
+    }
+
+    .specialization-card {
+        height: 246px !important;
+    }
+
+    .dotted-arrow-image-section {
+        display: none;
+    }
+
+    .specialization-card-spacing {
+        margin-top: 40px !important;
+    }
+
+    .workexp-section .row {
+        gap: 50px !important;
     }
 }
