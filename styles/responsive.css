@@ -43,7 +43,9 @@
     .social-media-container {
         padding: 0;
     }
-
+.final-section p{
+    width: 100% !important;
+}
     .banner-btn-section a {
         width: fit-content !important;
     }
