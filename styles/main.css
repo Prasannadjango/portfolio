@@ -653,6 +653,11 @@ main {
 
 .work-card-text h5 {
     font-family: var(--font-bold);
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
 }
 
 .work-card-text p {
